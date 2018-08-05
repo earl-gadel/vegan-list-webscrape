@@ -12,5 +12,4 @@ list_file = open('the_list.txt', 'w')
 for item in non_vegan_list:
     list_file.write('%s\n' % item)
 
-print (type(non_vegan_list))
-print ('List:', non_vegan_list)
+print('Success!')
