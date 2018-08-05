@@ -1,5 +1,4 @@
 from lxml import html
-from lxml import etree
 import requests
 
 page = requests.get('https://www.peta.org/living/food/animal-ingredients-list/')
